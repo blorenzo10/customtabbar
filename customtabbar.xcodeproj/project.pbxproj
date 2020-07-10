@@ -13,6 +13,9 @@
 		BCA3194524B7D8D400418489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA3194424B7D8D400418489 /* Assets.xcassets */; };
 		BCA3194824B7D8D400418489 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA3194724B7D8D400418489 /* Preview Assets.xcassets */; };
 		BCA3194B24B7D8D400418489 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA3194924B7D8D400418489 /* LaunchScreen.storyboard */; };
+		BCA3195324B7DAA300418489 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA3195224B7DAA300418489 /* CustomTabBarView.swift */; };
+		BCA3195524B7DC4800418489 /* CustomTabBarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA3195424B7DC4800418489 /* CustomTabBarManager.swift */; };
+		BCA3195724B7FC0200418489 /* TextFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA3195624B7FC0200418489 /* TextFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		BCA3194724B7D8D400418489 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BCA3194A24B7D8D400418489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCA3194C24B7D8D400418489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA3195224B7DAA300418489 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		BCA3195424B7DC4800418489 /* CustomTabBarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarManager.swift; sourceTree = "<group>"; };
+		BCA3195624B7FC0200418489 /* TextFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			children = (
 				BCA3193E24B7D8D100418489 /* AppDelegate.swift */,
 				BCA3194024B7D8D100418489 /* SceneDelegate.swift */,
+				BCA3195624B7FC0200418489 /* TextFactory.swift */,
+				BCA3195424B7DC4800418489 /* CustomTabBarManager.swift */,
+				BCA3195224B7DAA300418489 /* CustomTabBarView.swift */,
 				BCA3194224B7D8D100418489 /* ContentView.swift */,
 				BCA3194424B7D8D400418489 /* Assets.xcassets */,
 				BCA3194924B7D8D400418489 /* LaunchScreen.storyboard */,
@@ -147,8 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCA3193F24B7D8D100418489 /* AppDelegate.swift in Sources */,
+				BCA3195724B7FC0200418489 /* TextFactory.swift in Sources */,
 				BCA3194124B7D8D100418489 /* SceneDelegate.swift in Sources */,
 				BCA3194324B7D8D100418489 /* ContentView.swift in Sources */,
+				BCA3195324B7DAA300418489 /* CustomTabBarView.swift in Sources */,
+				BCA3195524B7DC4800418489 /* CustomTabBarManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
